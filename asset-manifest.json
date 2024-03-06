@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "//github.io/cafeteria/static/css/main.3f760029.css",
+    "main.js": "//github.io/cafeteria/static/js/main.8f4578df.js",
+    "static/media/manjar-crema-600x599.png": "//github.io/cafeteria/static/media/manjar-crema-600x599.38ca114fa1e2d63ed585.png",
+    "static/media/slide1.jpg": "//github.io/cafeteria/static/media/slide1.0c20169919ba67dd646b.jpg",
+    "static/media/logo.jpg": "//github.io/cafeteria/static/media/logo.f94f0fa6e3351445d7fa.jpg",
+    "static/media/download (3).jpeg": "//github.io/cafeteria/static/media/download (3).c650823e3e466c5c8141.jpeg",
+    "index.html": "//github.io/cafeteria/index.html",
+    "main.3f760029.css.map": "//github.io/cafeteria/static/css/main.3f760029.css.map",
+    "main.8f4578df.js.map": "//github.io/cafeteria/static/js/main.8f4578df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f760029.css",
+    "static/js/main.8f4578df.js"
+  ]
+}
