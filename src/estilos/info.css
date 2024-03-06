@@ -54,3 +54,24 @@
     opacity: .4;
     z-index: 89;
 }
+
+@media all and (min-width: 480px) and (max-width: 780px) { 
+    .info{
+        width: 90%;
+    }
+}
+@media all and (max-width: 480px) { 
+    .info{
+        width: 70%;
+        height: 60vh;
+        flex-direction: column-reverse;
+    }
+    .info.clicked{
+        top: -80%;
+    }
+    #img-info{
+        height: 50%;
+        width: 100%;
+    }
+    
+}

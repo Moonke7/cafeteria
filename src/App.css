@@ -71,7 +71,7 @@ footer{
 }
 @media all and (max-width: 480px) { 
     .slider__container{
-        background-position: -530px -200px;
+        background-position: -530px -170px;
         flex-direction: column-reverse;
         align-items: flex-start;
     }

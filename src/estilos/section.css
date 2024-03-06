@@ -159,9 +159,20 @@
     }
 }
 @media all and (max-width: 480px) { 
+    .productos__container{
+        width: 85%;
+    }
     .producto{
+        margin-top: 1vh;
         width: 48%;
         height: 18vh;
+    }
+    .producto__texto{
+        height: 40%;
+    }
+    .producto__texto h3{
+        font-size: 1em;
+        width: 80%;
     }
     .slider{
         width: 98%;
