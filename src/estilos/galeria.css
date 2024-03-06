@@ -1,0 +1,119 @@
+.galeria__container{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    border-top: double black 2px;
+    box-shadow: #704f3c 0px 20px 30px -10px;
+}
+.galeria__container h3{
+    position: absolute;
+    font-family: "Cabin";
+    z-index: 5;
+    font-size: 1.7em;
+    text-shadow: rgb(255, 255, 255) 5px 0 10px;
+    width: 50%;
+}
+.foto_sola{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: relative; 
+}
+.sola{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: .6s;
+}
+.imagenes{
+    width: 50%;
+    height: 100%;
+}
+.imagenes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+.imagenes li{
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes img{
+    transition: .6s;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* estilos para hovered */
+
+.sola.hovered{
+    filter: blur(5px);
+    transition: .6s;
+    z-index: 4;
+/*     filter: grayscale(80%);
+ */}
+.img2.hovered{
+    filter: blur(5px);
+    transition: .6s;
+    z-index: 4;
+/*     filter: grayscale(80%);
+ */}
+.img3.hovered{
+    filter: blur(5px);
+    transition: .6s;
+    z-index: 4;
+/*     filter: grayscale(80%);
+ */}
+.img4.hovered{
+    filter: blur(5px);
+    transition: .6s;
+    z-index: 4;
+/*     filter: grayscale(80%);
+ */}
+
+ @media all and (min-width: 480px) and (max-width: 780px) { 
+    .galeria__container{
+        height: 60vh;
+    }
+    .galeria__container h3{
+        font-size: 1.5em;
+    }
+ }
+@media all and (max-width: 480px) { 
+    .galeria__container{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .galeria__container h3{
+        font-size: 1.5em;
+    }
+    .imagenes{
+        width: 100%;
+        height: 40%;
+    }
+    .imagenes ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .imagenes li{
+        height: 50%;
+        width: 50%;
+    }
+    .foto_sola{
+        width: 100%;
+        height: 60%;
+    }
+    #ultima{
+        width: 100%;
+    }
+}
