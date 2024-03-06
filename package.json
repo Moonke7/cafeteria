@@ -2,7 +2,7 @@
   "name": "miapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Moonke7//github.io/project-react-test.git",
+  "homepage": "https://Moonke7//github.io/cafeteria",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
